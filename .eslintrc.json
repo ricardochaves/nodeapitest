@@ -2,11 +2,7 @@
     "extends": "airbnb",
     "rules":{
         "semi": 2,
-        "import/no-extraneous-dependencies": [
-            "erro", {
-                "devDependencies": true
-            }
-        ]
+        "import/no-extraneous-dependencies": 0
     },
     "globals":{
         "describe": true,
@@ -14,6 +10,7 @@
         "expect": true,
         "app": true,
         "request": true,
-        "beforeEach": true
+        "beforeEach": true,
+        "td": true
     }
 }
