@@ -1,4 +1,4 @@
-import Sequelize from 'Sequelize';
+import Sequelize from 'sequelize';
 import fs from 'fs';
 import path from 'path';
 
@@ -22,7 +22,7 @@ export default (app) => {
       config.database,
       config.username,
       config.password,
-      config.params,
+      config.params
     );
 
     database = {
